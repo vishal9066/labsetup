@@ -1,2 +1,2 @@
 # labsetup
-This bash script is for ubuntu lab setup. 
+This bash script is for Ubuntu/Linux lab setup. 
