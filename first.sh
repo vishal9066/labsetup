@@ -74,7 +74,7 @@ cd ~/tools/
 
 #install aquatone
 echo "Installing Aquatone"
-go get github.com/michenriksen/aquatone
+go install github.com/michenriksen/aquatone@latest
 cp ~/go/bin/aquatone /usr/local/bin
 echo "done"
 
