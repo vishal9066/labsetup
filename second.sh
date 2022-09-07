@@ -19,11 +19,11 @@ go install github.com/lukasikic/subzy@latest;
 go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest;
 git clone https://github.com/projectdiscovery/nuclei-templates ~/nuclei-templates;
 go install github.com/haccer/subjack@latest;
-GO111MODULE=on go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder
-GO111MODULE=on go get -v github.com/projectdiscovery/chaos-client/cmd/chaos;
+go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest;
+go install github.com/projectdiscovery/chaos-client/cmd/chaos@latest;
 go install github.com/hahwul/dalfox@latest;
 go install github.com/lc/gau@latest;
-GO111MODULE=on go get -u -v github.com/lc/subjs
+go install github.com/lc/subjs@latest
 go install github.com/hakluke/hakcheckurl@latest;
 go install github.com/hakluke/hakrawler@latest;
 go install github.com/hakluke/hakrevdns@latest;
